@@ -1,0 +1,369 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.705);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    font-family: 'Afacad Flux';
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    gap: 70px;
+    text-transform: uppercase;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+nav li a:focus{
+    color: rgba(218, 165, 32, 0.801);
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 80px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+    color: rgba(218, 165, 32, 0.801);
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/FONDO1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(218, 165, 32, 0.075);
+    height: 800px;
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Afacad Flux';
+    font-size: 70px;
+    color: #9eb38d;
+    letter-spacing: 5px;
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: 'Afacad Flux';
+    font-size: 35px;
+    color: #9eb38d;
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: 'Dosis';
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #bacaad8c;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 14px;
+    margin: 0 30px;
+    font-family: 'Afacad Flux';
+    text-transform: uppercase;
+}
+
+.button:hover {
+    transition: all 300ms ease-in;
+    background-color: rgba(218, 165, 32, 0.521);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.884);
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: 'Afacad Flux';
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/FONDO2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 348px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.267);
+}
+
+.contenidodos h2{
+    font-family: 'Qwitcher Grypen';
+    font-size: 80px;
+    display: flex;
+    justify-content: initial;
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.figuras a {
+    background-color: #9eb38d;
+    padding: 13px 50px;
+    border-radius: 30px;
+}
+
+.figuras a:hover{
+    transition: all 300ms ease-in;
+    background-color: rgba(218, 165, 32, 0.521);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.884);
+}
+
+.figuras a {
+    margin: 0 50px;
+    color: #faf7f7;
+    font-size: 25px;
+}
+.figuras a:hover {
+    color: #82acd4;
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #dfdfdf;
+    padding: 180px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Afacad Flux';
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #6b3ed3;
+  }
+
+  .galeria p {
+    color: #415252;
+    font-family: 'Edu AU VIC WA NT Guides';
+    text-align: center;
+    font-size: 40px;
+    line-height:5px ;
+    margin-bottom: 40px;
+  }
+
+  .contenidotres {
+    max-width: 1600px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: 320px;
+    border: 2px solid #04416a;
+    border-radius: 150px;
+  }
+
+  .contenidotres .columna h3 {
+    color: #000000;
+    margin-top: 30px;
+    font-family: 'Oswald';
+    font-size: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #dfdfdf;
+    color: #a6b7d1;
+    font-family: 'Afacad Flux';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #0056b3;
+    transition: all 300ms ease-in;
+    background-color: rgba(218, 165, 32, 0.521);
+    box-shadow: 0px 2px 5px rgba(218, 171, 52, 0.884);
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #2c2c2c;
+    color: #a7a7a7;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .Filas2{
+    text-align: center;
+  }
+
+  h3{
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Teko';
+  }
+  
+  p{
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-family: 'Londrina Sketch';
+  }
+
+.MisDatos a{
+    font-family: 'Rancho';
+    font-size: 25px;
+    color: rgba(187, 219, 179, 0.658);
+    text-decoration: none;
+
+}
+
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #e9e289;
+    font-size: 45px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #36c489; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
